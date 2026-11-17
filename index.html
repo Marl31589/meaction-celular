@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ME@ction</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="ME@ction">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0D1B2A">
+<link rel="apple-touch-icon" href="icone-180.png">
+<link rel="icon" type="image/png" href="icone-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+  html, body { margin: 0; height: 100%; background: #0D1B2A; }
+  body { padding-top: env(safe-area-inset-top); box-sizing: border-box; }
+  iframe { border: 0; width: 100%; height: 100%; display: block; background: #0D1B2A; }
+  .fora { position: fixed; left: 8px; bottom: calc(6px + env(safe-area-inset-bottom)); font: 11px system-ui, sans-serif;
+          color: #9FB1C3; background: rgba(20,38,58,.85); border: 1px solid #24394F; border-radius: 8px; padding: 3px 7px;
+          text-decoration: none; opacity: .7; }
+</style>
+</head>
+<body>
+<iframe id="app" title="ME@ction" src="https://marl-meaction.streamlit.app/?embed=true&embed_options=dark_theme"
+        allow="clipboard-read; clipboard-write"></iframe>
+<a class="fora" href="https://marl-meaction.streamlit.app/" target="_blank" rel="noopener" aria-label="Abrir o ME@ction no navegador">↗ navegador</a>
+</body>
+</html>
